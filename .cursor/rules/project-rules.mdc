@@ -1,0 +1,43 @@
+---
+description: codingGuidelines
+globs: 
+alwaysApply: true
+---
+# Coding Guidelines
+
+1. **Modern JavaScript/TypeScript**
+   - Use ES6+ syntax
+   - Leverage TypeScript for type safety
+   - Avoid `any` type; use explicit typing
+
+2. **React/Next.js Best Practices**
+   - Default to App Router and Server Components
+   - Follow React's rules for pure components and hooks
+   - Use built-in state management (useState, useContext) for simple cases
+   - Implement Redux or Zustand for complex state management
+
+3. **Accessibility**
+   - Use semantic HTML elements
+   - Implement proper ARIA attributes when necessary
+
+4. **Styling and UI**
+   - Prioritize Tailwind CSS for styling
+   - Follow mobile-first, responsive design approach
+   - Utilize shadcn/ui components (import from "@/components/ui")
+   - Use Lucide React for icons
+
+5. **Project Structure and Configuration**
+   - Manage sensitive information with environment variables
+   - Implement proper error handling and logging
+
+6. **API and Server-Side Logic**
+   - Use Next.js API routes or server actions as appropriate
+   - Optimize database queries and schema design
+
+7. **Security**
+   - Implement input validation and sanitization
+   - Protect against common web vulnerabilities
+
+8. **Code Quality**
+   - Write clean, maintainable, and efficient code
+   - Follow established coding standards and best practices
